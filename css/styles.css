@@ -9,18 +9,26 @@ body {
 
 h1 {
     color: #2AB3B1;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 700;
 }
 
 h2 {
-    color: #C0DF33;
+    color: #FFFFFF;
     font-size: 1.125em;
     font-weight: 700;
 }
 
+h3 {
+    color: #C0DF33;
+    font-size: .9375em;
+    font-weight: 700;
+}
+
 p {
-    color: #9AA7BE;
+    color: #FFFFFF;
+    font-size: .875em;
+    font-weight: 500;
 }
 
 .content-wrapper {
@@ -36,8 +44,21 @@ p {
 
 }
 
+.content-wrapper .main p {
+    color: #9AA7BE;
+}
+
 .subscription {
     background-color: #2bb3b1;
+}
+
+.best-deal {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.monthfade {
+    color: #9AA7BE;
 }
 
 .why-us {
