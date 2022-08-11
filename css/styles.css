@@ -3,8 +3,11 @@ html {
   }
 
 body {
+    display: flex; 
+    align-items: center;
     font-size: 1em;
     font-family: "Karla";
+    height: 100vh;
 }
 
 h1 {
@@ -79,27 +82,24 @@ p {
         
     }
 
- /*   .content-wrapper {
+   .content-wrapper {
         grid-template-columns: 360px;
-        grid-template-rows: calc(722 / 3);
+        grid-template-rows: repeat(3, 240px);
     }
 
     .main {
-        grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
 
     .subscription {
-        grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
     .why-us {
-        grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
 
     h1 {
         font-size: 1.25em;
     }
-} */
+} 
