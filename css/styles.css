@@ -5,9 +5,11 @@ html {
 body {
     display: flex; 
     align-items: center;
+    justify-content: center;
     font-size: 1em;
     font-family: "Karla";
     height: 100vh;
+
 }
 
 h1 {
@@ -35,9 +37,7 @@ p {
 }
 
 .content-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 317.5px);
-    grid-template-rows: 215px 215px;
+    
 }
 
 .content-wrapper div {
@@ -45,8 +45,7 @@ p {
 }
 
 .main {
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
+    
 }
 
 .content-wrapper .main p {
@@ -54,10 +53,7 @@ p {
 }
 
 .subscription {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
     background-color: #2bb3b1;
-    height: 100%;
 }
 
 .best-deal {
@@ -66,10 +62,7 @@ p {
 }
 
 .why-us {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
     background-color: #4abebd;
-    height: 100%;
 }
 
 .why-us p {
@@ -77,26 +70,29 @@ p {
     line-height: 1.3em;
 }
 
-@media (min-width 375px) {
+@media (min-width: 1440px) {
     body {
         
     }
 
    .content-wrapper {
-        grid-template-columns: 360px;
-        grid-template-rows: repeat(3, 240px);
+        display: grid;
+        grid-template-columns: repeat(2, 320px);
     }
 
     .main {
+        grid-column: 1 / span 2;
         grid-row: 1 / 2;
     }
 
     .subscription {
+        grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
     .why-us {
-        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
     }
 
     h1 {
