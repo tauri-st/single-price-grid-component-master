@@ -37,6 +37,8 @@ p {
 }
 
 .content-wrapper {
+    border-radius: 5px;
+    box-shadow: 5px 5px 14px 8px #9AA7BE;
     
 }
 
@@ -54,6 +56,16 @@ p {
 
 .subscription {
     background-color: #2bb3b1;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #9AA7BE;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
 }
 
 .best-deal {
