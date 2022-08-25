@@ -4,17 +4,16 @@ html {
 
 body {
     display: flex; 
+    flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
     font-size: 1em;
     font-family: "Karla";
-    height: 100vh;
-
+    margin: 100px 0;
 }
 
 h1 {
     color: #2AB3B1;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 700;
 }
 
@@ -26,36 +25,37 @@ h2 {
 
 h3 {
     color: #C0DF33;
-    font-size: .1.125em;
+    font-size: .9375em;
     font-weight: 700;
 }
 
 p {
     color: #FFFFFF;
-    font-size: 1em;
+    font-size: .875em;
     font-weight: 500;
+    line-height: 2em;
 }
 
 .content-wrapper {
+    display: grid;
     border-radius: 5px;
     box-shadow: 5px 5px 14px 8px #9AA7BE;
-    
 }
 
 .content-wrapper div {
-    width: 250px;
-    padding: 30px 40px;
+    padding: 15px 28px;
+    width: 280px;
 }
 
-.main {
-    width: 500px;
+.content-wrapper .main {
+    
 }
 
 .content-wrapper .main p {
     color: #9AA7BE;
 }
 
-.subscription {
+.content-wrapper .subscription {
     background-color: #2bb3b1;
 }
 
@@ -69,12 +69,12 @@ button {
     width: 100%;
 }
 
-.best-deal {
+.content-wrapper .subscription .best-deal {
     font-size: 2em;
     font-weight: 700;
 }
 
-.why-us {
+.content-wrapper .why-us {
     background-color: #4abebd;
 }
 
@@ -89,32 +89,41 @@ button {
     }
 
    .content-wrapper {
-        display: grid;
         grid-template-columns: repeat(2, 320px);
     }
 
     .content-wrapper div {
-
+        padding: 30px 40px;
     }
     
 
-    .main {
+    .content-wrapper .main {
         grid-column: 1 / span 2;
         grid-row: 1 / 2;
         width: 100%;
     }
 
-    .subscription {
+    .content-wrapper .subscription {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+        width: 100%;
     }
 
-    .why-us {
+    .content-wrapper .why-us {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+        width: 100%;
     }
 
     h1 {
-        font-size: 1.25em;
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.125em;
+    }
+
+    p {
+        font-size: 1em;
     }
 } 
