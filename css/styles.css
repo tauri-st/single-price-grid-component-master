@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+
   }
 
 body {
@@ -7,57 +7,61 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
     font-family: "Karla";
     min-height: 100vh;
 }
 
 h1 {
     color: #2AB3B1;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
 h2 {
     color: #FFFFFF;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
-h3 {
+.content-wrapper .join .guarantee {
     color: #C0DF33;
-    font-size: .9375em;
+    font-size: .9375rem;
     font-weight: 700;
+    line-height: 1.2rem;
 }
 
 p {
     color: #FFFFFF;
-    font-size: .875em;
     font-weight: 500;
-    line-height: 2em;
+    line-height: 1.6rem;
 }
 
 .content-wrapper {
     display: grid;
     border-radius: 5px;
     box-shadow: 5px 5px 14px 8px #9AA7BE;
-    width: 300px;
-}
-
-.content-wrapper div {
-    padding: 15px 28px;
-}
-
-.content-wrapper .join {
-    
-}
-
-.content-wrapper .join p {
-    color: #9AA7BE;
+    width: 310px;
 }
 
 .content-wrapper .subscription {
     background-color: #2bb3b1;
+}
+
+.content-wrapper div {
+    padding: 15px 20px;
+}
+
+.content-wrapper .join p {
+    color: #9AA7BE;
+    font-size: .875rem;
+}
+
+div.button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 1.875rem;
+    margin-bottom: .625rem;
 }
 
 .button {
@@ -66,12 +70,19 @@ p {
     border-radius: 5px;
     box-shadow: 0 4px 10px #9AA7BE;
     color: white;
-    padding: 15px 90px;
-    margin: 50px 0;
+    padding: 14px 100px;
+}
+
+.content-wrapper .subscription h2 {
+    margin-bottom: 1.4rem;
+}
+
+.content-wrapper .subscription p {
+    margin: 0;
 }
 
 .content-wrapper .subscription .best-deal {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -86,11 +97,11 @@ p {
 
 .content-wrapper .why-us ul li {
     color: white;
-    font-size: .875em;
+    font-size: .875rem;
     margin-top: 4px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
     body {
         
     }
@@ -110,9 +121,25 @@ p {
         grid-row: 1 / 2;
     }
 
+    .content-wrapper .join .guarantee {
+        margin-bottom: .5rem;
+    }
+
+    .content-wrapper .join p {
+        margin-top: .5rem;
+    }
+
     .content-wrapper .subscription {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+    }
+    
+    div.button-wrapper {
+        padding: 0;
+    }
+
+    .button {
+        padding: 10px 100px;
     }
 
     .content-wrapper .why-us {
@@ -121,14 +148,14 @@ p {
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
-    h3 {
-        font-size: 1.125em;
+    .content-wrapper .join .guarantee {
+        font-size: 1.125rem;
     }
 
-    p {
-        font-size: 1em;
+    .content-wrapper .join p {
+        font-size: 1rem;
     }
 }
