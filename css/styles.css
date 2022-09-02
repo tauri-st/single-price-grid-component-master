@@ -39,7 +39,7 @@ p {
 .content-wrapper {
     display: grid;
     border-radius: 5px;
-    box-shadow: 5px 5px 14px 8px #9AA7BE;
+    box-shadow: -3px 10px 14px 8px lightgray;
     width: 310px;
 }
 
@@ -60,7 +60,7 @@ p {
     background-color: hsl(71, 73%, 54%);
     border: none;
     border-radius: 5px;
-    box-shadow: 0 4px 10px #9AA7BE;
+    box-shadow: box-shadow: -3px 10px 14px 8px lightgray;
     color: white;
     display: block;
     margin-bottom: .625rem;
