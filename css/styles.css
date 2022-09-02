@@ -23,13 +23,6 @@ h2 {
     font-weight: 700;
 }
 
-.content-wrapper .join .guarantee {
-    color: #C0DF33;
-    font-size: .9375rem;
-    font-weight: 700;
-    line-height: 1.2rem;
-}
-
 p {
     color: #FFFFFF;
     font-weight: 500;
@@ -39,12 +32,8 @@ p {
 .content-wrapper {
     display: grid;
     border-radius: 5px;
-    box-shadow: -3px 10px 14px 8px lightgray;
+    box-shadow: -3px 10px 14px 8px #dddce1;
     width: 310px;
-}
-
-.content-wrapper .subscription {
-    background-color: #2bb3b1;
 }
 
 .content-wrapper div {
@@ -56,16 +45,15 @@ p {
     font-size: .875rem;
 }
 
-.button {
-    background-color: hsl(71, 73%, 54%);
-    border: none;
-    border-radius: 5px;
-    box-shadow: box-shadow: -3px 10px 14px 8px lightgray;
-    color: white;
-    display: block;
-    margin-bottom: .625rem;
-    margin-top: 1.25rem;
-    padding: 14px 100px;
+.content-wrapper .join .guarantee {
+    color: #C0DF33;
+    font-size: .9375rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.content-wrapper .subscription {
+    background-color: #2bb3b1;
 }
 
 .content-wrapper .subscription h2 {
@@ -79,6 +67,18 @@ p {
 .content-wrapper .subscription .best-deal {
     font-size: 2rem;
     font-weight: 700;
+}
+
+.button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3px 10px 14px 8px #26a2a0;
+    color: white;
+    display: block;
+    margin-bottom: .625rem;
+    margin-top: 1.5rem;
+    padding: 14px 100px;
 }
 
 .content-wrapper .why-us {
@@ -97,11 +97,11 @@ p {
 }
 
 @media (min-width: 768px) {
-    body {
-        
+    h1 {
+        font-size: 1.5rem;
     }
-
-   .content-wrapper {
+    
+    .content-wrapper {
         grid-template-columns: repeat(2, 1fr);
         width: 640px;
     }
@@ -117,10 +117,12 @@ p {
     }
 
     .content-wrapper .join .guarantee {
+        font-size: 1.125rem;
         margin-bottom: .5rem;
     }
 
     .content-wrapper .join p {
+        font-size: 1rem;
         margin-top: .5rem;
     }
 
@@ -130,24 +132,12 @@ p {
     }
 
     .button {
-        margin-top: 2rem;
+        margin-top: 1.75rem;
         padding: 10px 80px;
     }
 
     .content-wrapper .why-us {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .content-wrapper .join .guarantee {
-        font-size: 1.125rem;
-    }
-
-    .content-wrapper .join p {
-        font-size: 1rem;
     }
 }
