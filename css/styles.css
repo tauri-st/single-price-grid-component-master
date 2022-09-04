@@ -4,9 +4,10 @@ html {
 
 body {
     display: flex; 
-    flex-flow: column wrap;
     align-items: center;
+    flex-flow: column wrap;
     justify-content: center;
+    background: #e6eff6;
     font-family: "Karla";
     min-height: 100vh;
 }
@@ -31,13 +32,17 @@ p {
 
 .content-wrapper {
     display: grid;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: -3px 10px 14px 8px #dddce1;
     width: 310px;
 }
 
 .content-wrapper div {
     padding: 15px 20px;
+}
+
+.content-wrapper .join {
+    background: #ffffff;
 }
 
 .content-wrapper .join p {
