@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-flow: column wrap;
     justify-content: center;
-    background: #e6eff6;
+    background-color: #e6eff6;
     font-family: "Karla";
     min-height: 100vh;
 }
@@ -34,6 +34,8 @@ p {
     display: grid;
     border-radius: 10px;
     box-shadow: -3px 10px 14px 8px #dddce1;
+    /***** Child background overflows grid *****/
+    overflow: hidden;
     width: 310px;
 }
 
@@ -42,7 +44,7 @@ p {
 }
 
 .content-wrapper .join {
-    background: #ffffff;
+    background-color: #FFFFFF;
 }
 
 .content-wrapper .join p {
@@ -81,6 +83,7 @@ p {
     box-shadow: -3px 10px 14px 8px #26a2a0;
     color: white;
     display: block;
+    /***** focus-visible: *****/
     margin-bottom: .625rem;
     margin-top: 1.5rem;
     padding: 14px 100px;
