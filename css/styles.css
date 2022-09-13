@@ -2,6 +2,10 @@ html {
 
   }
 
+main {
+    margin: 1rem;
+}
+
 body {
     display: flex; 
     align-items: center;
@@ -36,7 +40,7 @@ p {
     box-shadow: -3px 10px 14px 8px #dddce1;
     /***** Child background overflows grid *****/
     overflow: hidden;
-    width: 310px;
+    max-width: 300px;
 }
 
 .content-wrapper div {
@@ -83,10 +87,19 @@ p {
     box-shadow: -3px 10px 14px 8px #26a2a0;
     color: white;
     display: block;
-    /***** focus-visible: *****/
     margin-bottom: .625rem;
     margin-top: 1.5rem;
-    padding: 14px 100px;
+    padding: 0.7rem 3rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:focus-visble {
+    background-color: lightskyblue;
+}
+
+.button:hover {
+    background-color: lightskyblue;
 }
 
 .content-wrapper .why-us {
@@ -104,6 +117,10 @@ p {
     margin-top: 4px;
 }
 
+.attribution {
+    color: #333;
+}
+
 @media (min-width: 768px) {
     h1 {
         font-size: 1.5rem;
@@ -111,7 +128,7 @@ p {
     
     .content-wrapper {
         grid-template-columns: repeat(2, 1fr);
-        width: 640px;
+        max-width: 640px;
     }
 
     .content-wrapper div {
@@ -141,7 +158,6 @@ p {
 
     .button {
         margin-top: 1.75rem;
-        padding: 10px 80px;
     }
 
     .content-wrapper .why-us {
