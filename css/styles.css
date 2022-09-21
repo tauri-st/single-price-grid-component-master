@@ -95,11 +95,11 @@ p {
 }
 
 .button:focus-visble {
-    background-color: lightskyblue;
+    border: 5px solid #3A606E;
 }
 
 .button:hover {
-    background-color: lightskyblue;
+    border: 5px solid #3A606E;
 }
 
 .content-wrapper .why-us {
