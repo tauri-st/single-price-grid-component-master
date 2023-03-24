@@ -23,7 +23,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action (I am seeking feedback from the community regarding this requirement which is not evident to me from the Figma design comp.)
+- See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
 
@@ -56,8 +56,7 @@ Box shadow was a first for me, and fun to learn. Pretty explanatory once I got t
 
 ### Continued development
 
-I challenged myself to use grid columns and rows for this challenge because I am fairly new to grid, but my peers on FEM and Kevin Powell have introduced grid-ares to me so I will be exploring that next.
-This is my last layout built from scratch. I will be branching off into component libraries and specific Tailwind after this!
+I challenged myself to use grid columns and rows for this challenge because I am fairly new to grid, but my peers on FEM and Kevin Powell have introduced grid-areas to me so I will be exploring that next.
 
 ### Useful resources
 
@@ -76,7 +75,6 @@ This is my last layout built from scratch. I will be branching off into componen
 Thank you @Vanza from the FEM Slack for introducing me to Josh W Comeau, he has a class on CSS for JS Developers and I'm VERY interested now after seeing how thorough he is!
 Thank you @Grace from the FEM Slack for getting right to the core of my layout issues and providing helpful and direct feedback!
 
-My Questions for the Community:
+My Questions for the Community (these have all been since resolved):
 - The Project rerquirments state we should be able to "See a hover state on desktop for the Sign Up call-to-action?" but I don't see anything indicated like that in the Figma.
 - The color displayed by Figma for the "why us" list as well as the Subscription "per month" is white, but they look to be a light grey? There is a drop shadow affect listed, is this an inset drop shadow?
-- This is my last FEM hacking it on my own before using a component library! I'm going to explore Tailwind, and would appreciate any favorite resources :)
