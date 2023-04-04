@@ -165,3 +165,29 @@ p {
         grid-row: 2 / 3;
     }
 }
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #351D77;
+  padding: 15px 0;
+  width: 100%;
+}
+
+header .content-wrapper {
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+header nav ul li {
+  padding: 0 .625rem;
+}
