@@ -1,0 +1,1 @@
+//Please add something like a floating scroll to top button implemented in JS to one of the pages.
