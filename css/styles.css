@@ -1,11 +1,3 @@
-html {
-
-  }
-
-main {
-    margin: 1rem;
-}
-
 body {
     display: flex; 
     align-items: center;
@@ -14,6 +6,23 @@ body {
     background-color: #e6eff6;
     font-family: "Karla";
     min-height: 100vh;
+}
+
+main {
+    margin: 1rem;
+}
+
+.content-wrapper {
+    display: grid;
+    border-radius: 10px;
+    box-shadow: -3px 10px 14px 8px #dddce1;
+    /***** Child background overflows grid *****/
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.content-wrapper div {
+    padding: 15px 20px;
 }
 
 h1 {
@@ -32,19 +41,6 @@ p {
     color: #FFFFFF;
     font-weight: 500;
     line-height: 1.6rem;
-}
-
-.content-wrapper {
-    display: grid;
-    border-radius: 10px;
-    box-shadow: -3px 10px 14px 8px #dddce1;
-    /***** Child background overflows grid *****/
-    overflow: hidden;
-    max-width: 300px;
-}
-
-.content-wrapper div {
-    padding: 15px 20px;
 }
 
 .content-wrapper .join {
@@ -103,12 +99,12 @@ p {
 }  
 
 #dropdown-button {
+    display: block;
     background-color: hsl(71, 73%, 54%);
     border: none;
     border-radius: 5px;
     box-shadow: -3px 10px 14px 8px #26a2a0;
     color: white;
-    display: block;
     margin-bottom: .625rem;
     margin-top: 1.5rem;
     padding: 0.7rem 3rem;
@@ -178,7 +174,7 @@ p {
         grid-row: 2 / 3;
     }
 
-    .button {
+    #dropdown-button {
         margin-top: 1.75rem;
     }
 
