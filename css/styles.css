@@ -80,7 +80,7 @@ p {
     font-weight: 700;
 }
 
-button {
+#sign-up-dropdown {
     background-color: hsl(71, 73%, 54%);
     border: none;
     border-radius: 5px;
