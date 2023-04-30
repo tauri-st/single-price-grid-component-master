@@ -96,7 +96,7 @@ p {
 #list-items a {  
      display: block;  
      font-size: 18px;  
-     background-color: #ddd;  
+     background-color: white;  
      color: black;  
      text-decoration: none;  
      padding: 10px;  
@@ -116,12 +116,12 @@ p {
     text-decoration: none;
 }
 
-.button:focus-visble {
-    border: 5px solid #3A606E;
+#dropdown-button:focus-visble {
+    border: 3px solid #3A606E;
 }
 
-.button:hover {
-    border: 5px solid #3A606E;
+#dropdown-button:hover {
+    border: 3px solid #3A606E;
 }
 
 .content-wrapper .why-us {
