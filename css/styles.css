@@ -86,7 +86,8 @@ p {
     display: none;  
     position: absolute;  
     background-color: white;  
-    min-width: 185px;  
+    min-width: 150px;  
+    padding: 0;
 }  
 /* provide css to list items */   
 #list-items a {  
@@ -97,6 +98,14 @@ p {
      text-decoration: none;  
      padding: 10px;  
 }  
+
+#list-items a:hover {
+    background: #ddd;
+}
+
+#list-items a:focus-visible {
+    background: #ddd;
+}
 
 #dropdown-button {
     display: block;
