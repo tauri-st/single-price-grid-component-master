@@ -114,6 +114,7 @@ p {
     border-radius: 5px;
     box-shadow: -3px 10px 14px 8px #26a2a0;
     color: white;
+    cursor: pointer;
     margin-bottom: .625rem;
     margin-top: 1.5rem;
     padding: 0.7rem 3rem;
