@@ -36,6 +36,11 @@ Users should be able to:
 
 ## My process
 
+1. Laid down semantic HTML and arranged the DOM according to order of elements in mobile-first development
+2. Pulled in colors, fonts, and all major CSS properties
+3. Used Flexbox in order to create layout of elements
+4. Adapted for Desktop layout
+
 ### Built with
 
 - Semantic HTML5 markup
